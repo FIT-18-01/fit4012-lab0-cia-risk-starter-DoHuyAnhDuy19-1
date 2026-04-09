@@ -15,18 +15,18 @@
 
 ### 3. Kết quả chính
 **Assets:**
-- 
-- 
+- Cơ sở dữ liệu điểm số: Đây là tài sản quan trọng nhất, chứa kết quả học tập của toàn bộ sinh viên.
+- Thông tin định danh người dùng: Bao gồm tài khoản/mật khẩu của giảng viên và quản trị viên hệ thống để ngăn chặn việc truy cập trái phép.
 
 **CIA mapping:**
-- Sự cố A -> 
-- Sự cố B -> 
-- Sự cố C -> 
+- Sự cố A -> Confidentiality
+- Sự cố B -> Integrity
+- Sự cố C -> Availability
 
 **Phân tích sự cố B:**
-- Threat: 
-- Vulnerability: 
-- Mitigation: 
+- Threat: Kẻ tấn công (hacker) hoặc sinh viên có kiến thức kỹ thuật thực hiện tấn công SQL Injection hoặc đánh cắp session của giảng viên.
+- Vulnerability: Hệ thống không kiểm tra tính hợp lệ của dữ liệu đầu vào (Input Validation) hoặc không có cơ chế ghi log (Audit Log) để theo dõi các thay đổi dữ liệu.
+- Mitigation: Sử dụng Parameterized Queries (truy vấn có tham số), triển khai cơ chế xác thực đa yếu tố (MFA) cho giảng viên và thiết lập hệ thống ghi lại lịch sử thay đổi điểm
 
 ### 4. Kết luận ngắn
-(4-6 dòng: em học được gì từ bài lab này, phần nào khó nhất, điều gì cần chú ý khi phân tích một sự cố an toàn thông tin.)
+Qua bài lab này, em đã hiểu rõ hơn cách áp dụng mô hình CIA để đánh giá mức độ nghiêm trọng của một sự cố an ninh. Phần khó nhất là phân biệt giữa Threat và Vulnerability, vì đôi khi chúng ta dễ nhầm lẫn giữa tác nhân bên ngoài và điểm yếu nội tại của hệ thống. Điều quan trọng nhất khi phân tích một sự cố là phải nhìn nhận đa chiều: không chỉ tập trung vào việc ngăn chặn kẻ tấn công mà còn phải chú trọng vào việc xây dựng các rào cản kỹ thuật để giảm thiểu lỗ hổng hệ thống.
