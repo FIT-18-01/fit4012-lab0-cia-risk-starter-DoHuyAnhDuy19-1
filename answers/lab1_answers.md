@@ -37,7 +37,6 @@ Ghép từng sự cố với CIA.
 ## 4. Reflection
 Qua bài tập này, em nhận thấy rằng việc bảo mật không chỉ đơn thuần là cài đặt phần mềm chống virus mà là một quy trình toàn diện. Việc hiểu rõ mô hình CIA giúp em xác định được ưu tiên bảo vệ cho từng loại tài sản khác nhau. Trong quá trình phát triển các ứng dụng bằng C# hay Python, việc chú trọng vào khâu kiểm soát dữ liệu đầu vào là cực kỳ quan trọng để ngăn chặn các lỗ hổng như SQL Injection. Điều này giúp em có tư duy cẩn trọng hơn khi thiết kế kiến trúc hệ thống và xây dựng cơ sở dữ liệu sau này.
 
-
 ---
 
 ## 5. Bonus Flag
